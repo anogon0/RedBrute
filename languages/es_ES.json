@@ -1,0 +1,5 @@
+{
+    "not-found": "Error 404: No Encontrado, prueba con otra url.",
+    "invalid-password": "Invalida | <user>: <password>",
+    "correct-password": "Contraseña encontrada | <user>: <password>"
+}

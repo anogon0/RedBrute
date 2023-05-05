@@ -1,0 +1,5 @@
+{
+    "not-found": "Error 404: Not Found, try with another url.",
+    "invalid-password": "Invalid | <user>: <password>",
+    "correct-password": "Password found | <user>: <password>"
+}

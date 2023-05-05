@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <form>
+        <h4 id="label"></h4>
+        <input type="text" name="username" value="Name">
+        <input type="password" name="password" value="Password">
+        <button type="submit" onclick=clck>Submit</button>
+    </form>
+    <script>
+        function clck() {
+            let user = document.getElementsByName("username");
+            let pass = document.getElementsByName("password");
+            let label = document.getElementById("label");
+
+            if (user.value === "admin" && pass.value === "admin") {
+                label.value = "Correct password, welcome!"
+            } else {
+                label.value = "Incorrect password";
+            }
+        }
+    </script>
+</body>
+</html>

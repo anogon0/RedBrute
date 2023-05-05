@@ -1,3 +1,8 @@
 {
-    "language": "es"
+    "language": "es_ES",
+    "words-on-login": [
+        "welcome",
+        "bienvenido",
+        "correct"
+    ]
 }
